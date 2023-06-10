@@ -1,0 +1,32 @@
+.FormBox {
+    background: salmon;
+    width: 30vw;
+    height: 60vh;
+    margin: 3vh auto 0;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.LabelTag {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 12vw;
+}
+
+.InputTag {
+    padding-left: 10vw;
+    float: right;
+}
+
+.ButtonTag {
+    padding: 2vh 5vw;
+    margin-top: 1vh;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}

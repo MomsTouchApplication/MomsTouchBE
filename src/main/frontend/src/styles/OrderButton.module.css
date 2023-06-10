@@ -1,0 +1,26 @@
+.Button {
+    width: 30vw;
+    height: 15vh;
+    border: 1px solid red;
+    background: red;
+    align-items: center;
+    position: absolute;
+    left: 35vw;
+}
+
+.Button:hover {
+    background: #61dafb;
+    transition: 0.5s;
+    border: none;
+}
+
+.Button:hover .Letter {
+    color: black;
+    transition: 0.5s;
+}
+
+.Letter {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}

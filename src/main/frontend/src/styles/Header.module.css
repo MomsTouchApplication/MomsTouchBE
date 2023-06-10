@@ -1,0 +1,35 @@
+.HeaderBox {
+    width: 100vw;
+    height: 10vh;
+    background: #61dafb;
+    text-align: center;
+}
+
+.Box {
+    float: left;
+    width: 50vw;
+    vertical-align: middle;
+    height: 10vh;
+    padding-top: 3vh;
+}
+
+.Logo {
+    text-align: right;
+}
+
+.Login {
+    text-align: right;
+    padding-left: 40vw;
+    padding-right: 2vw;
+    display: inline;
+}
+
+.LinkTag {
+    color: black;
+    text-decoration: none;
+}
+
+.Order {
+    text-align: right;
+    display: inline;
+}

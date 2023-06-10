@@ -1,0 +1,28 @@
+.DivUl {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+}
+
+.DivLi {
+    border: 1px solid black;
+    width: 15vw;
+    height: 5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    text-align: center;
+    padding-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 20px;
+}
+
+.DivLi:hover {
+    background: #61dafb;
+    transition: 0.5s;
+    cursor: pointer;
+}
